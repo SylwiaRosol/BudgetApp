@@ -1,0 +1,84 @@
+body {
+    padding-top: 3.5rem;
+    background: url('../img/gold-piggy.png') no-repeat;
+    background-size: cover;
+  }
+
+main {
+    
+    color: burlywood;
+    text-align: center;
+}
+
+.form-signin {
+    background-color:#777;
+  	border: 2px solid burlywood;  
+    border-radius: 5px;
+    opacity: 0.9;
+  }
+
+
+
+.icon {
+    float:left;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    color:burlywood; 
+}
+h2 {
+    color: cornsilk;
+}
+
+p {
+    color:cornsilk;
+}
+
+.btn {
+    width: 160px;
+    background-color:seagreen;
+    color: burlywood;
+    border: 2px solid burlywood;  
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    margin-right: 15px;
+}
+.btn:focus{
+    background-color:mediumseagreen;
+    color: burlywood !important;
+       
+}
+
+.btn:hover{
+    background-color:mediumseagreen;
+    color: burlywood !important;
+}
+
+img {
+    opacity: 0.9;
+}
+.form-label-group > input {
+    border: 2px solid burlywood;
+    border-radius: 5px;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 60%;
+  }
+
+.form-label-group > input:focus {  
+    border: 1px solid chocolate !important;
+    border-radius: 5px !important;
+  }
+
+
+
