@@ -16,6 +16,13 @@ main {
     border-radius: 5px;
     opacity: 0.9;
   }
+.jumbotron {
+    background-color: transparent !important;     
+}
+.container {
+    background-color:#777;
+    opacity: 0.9;
+}
 
 
 
