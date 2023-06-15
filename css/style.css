@@ -87,5 +87,35 @@ img {
     border-radius: 5px !important;
   }
 
+  .icon {
+    float:left;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.icon > label > img {
+    cursor: pointer;
+    
+}
+.icon > label > img:hover {
+    background-color: mediumseagreen;
+}
+.icon > input[type="radio"]:checked + label > img {
+    
+    background-color: cornsilk;
+}
+
+.form-check {
+    float: left;
+}
+.form-check > input[type="radio"] {
+    cursor: pointer;
+}
+
+.form-check > label {
+    cursor: pointer;
+    font-size: 18px;
+    color: cornsilk;
+}
 
 
