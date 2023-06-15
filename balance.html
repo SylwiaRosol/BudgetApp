@@ -1,0 +1,163 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+    <title>Bilans</title>
+	<link rel="shortcut icon" href="img/dollar.png" type="image/png">
+    
+	<!--CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="fontello/css/fontello.css" type="text/css">
+    
+
+	<!--CZCIONKA-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+	
+    <!--[if lt IE 9]>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<![endif]-->
+    </head>
+
+    <body>
+        
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                <a class="navbar-brand col-1" href="afterSingIn.html"> <img src="img/logo2.png" alt="Logo aplikacji" width="50" height="50"></a>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+          
+                <div class="collapse navbar-collapse" id="navbarsExample03">
+                    <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="afterSingIn.html">Strona główna</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Dodaj wydatek</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Dodaj dochód</a>
+                        </li>
+                        <li class="nav-item">
+                            <a id="active"  class="nav-link active" href="Balance.html">Bilans</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Ustawienia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="firstPage.html">Wyloguj się</a>
+                        </li>  
+                    </ul>
+                    <div class="dropdown">
+                      <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Okres czasu
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item active" href="#">bieżący miesiąc</a></li>
+                        <li><a class="dropdown-item" href="#">poprzedni miesiąc</a></li>
+                        <li><a class="dropdown-item" href="#">bieżący rok</a></li>
+                        <li><a class="dropdown-item" href="#">niestandardowy</a></li>
+                      </ul>
+                    </div>
+                </div>
+              </nav>
+          </header>
+      
+          <main class="mt-5"> 
+            
+			<div class="container mb-4 mb-lg-2">
+                <h1 class="text-uppercase">Bilans finansowy</h1>
+                <div class="row">
+                   <div class="showBalance col-12 mb-2 col-md-8 offset-md-2 col-lg-5 ml-lg-2 mb-lg-0 ml-xl-3 mr-xl-2">
+                    <h2>Przychody</h2>
+
+                    <div class="table-responsive">
+                        <table class="table table-striped table-sm">
+                          <thead>
+                            <tr>
+                              <th>Kwota</th>
+                              <th>Data</th>
+                              <th>Kategoria</th>
+                              <th>Komentarz</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                                <td>9078 PLN</td>
+                                <td>30.09.2034</td>
+                                <td>wypłata</td>
+                                <td></td>
+                          </tr>
+                          <tr>
+                            <td>8907 PLN</td>
+                            <td>31.09.2034</td>
+                            <td>premia</td>
+                            <td>za dobre wykonanie projektu</td>
+                          </tr>
+
+                        </tbody>
+                        </table>
+                        </div>
+
+                   </div>
+                   <div class="showBalance col-12 col-md-8 offset-md-2 col-lg-6 ml-lg-4 col-xl-6 ml-xl-4">
+                    <h2>Wydatki</h2>
+
+                    <div class="table-responsive">
+                        <table class="table table-striped table-sm">
+                          <thead>
+                            <tr>
+                              <th>Kwota</th>
+                              <th>Data</th>
+                              <th>Kategoria</th>
+                              <th>Sposób płatności</th>
+                              <th>Komentarz</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                                      <td>490 PLN</td>
+                                      <td>24.09.2034</td>
+                                      <td>na psa</td>
+                                      <td>kartą kredytową</td>
+                                      <td>na leki dla psa</td>
+                            </tr>
+                            <tr>
+                                    <td>1098 PLN</td>
+                                    <td>21.09.2034</td>
+                                    <td>na paliwo</td>
+                                    <td>kartą debetową</td>
+                            </tr>
+                    
+                        </tbody>
+                        </table>
+                        </div>
+
+                   </div>
+                </div>
+                <div class="row mt-4 mb-5 mb-lg-0">
+                    <div class="col-6 offset-2 col-md-3 offset-md-0">
+                     <picture>
+                         <source media="(max-width: 767px)" srcset="img/wallet.png">
+                         <source media="(max-width: 991px)" srcset="img/wallet2.png">
+                         <img class="mg-thumbnail float-left m-3" src="img/wallet.png" style="width:auto" alt="grafika przedstawiająca aplikację finansową">
+                     </picture>
+                     </div>
+                     <div class="col-md-8 ml-md-5">
+                            <h1>Brawo! Świetnie zarządzasz swoim budżetem!</h1>
+                            <h2>Twój stan finansowy to: 150000 PLN</h2>
+                     </div>
+                </div>
+            </div>
+          </main>
+                <footer class="bg-dark fixed-bottom">
+                <p class="pt-2" style="text-align: center;">&copy;  2023</p>
+                </footer>
+    </body>
+  </html>
